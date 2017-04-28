@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>Login/Registration</title
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bike.css" type="text/css"  media="all">
+</head>
+<body class="body">
+
+		<header class="mainheader">
+
+		<nav class="utility_nav">
+			<ul>
+				<li><a href="Register_Login.html">Sign in</a></li>
+			</ul>
+		</nav>
+
+		<div class="hero">
+		</div>
+
+		<nav class="main_nav">
+		<ul>
+				<li><a href="bikehome.html">Home</a></li>
+				<li><a href="routes.html">Routes</a></li>
+				<li><a href="bikecontact.html">Contact</a></li>
+			</ul></nav>
+		</header>
+			
+	<div class ="maincontent">
+				
+			<div id="form_wrapper">
+				<h2>Register</h2>
+				<form class="form">
+					<p class="field">
+						<label for="firstname">First Name</label>
+						<input type="text" name="firstname" id="firstname" placeholder="First Name" required="required">
+					</p>
+			
+					<p class="field">
+						<label for="lastname">Last Name<label>
+						<input type="text" name="lastname" id="lastname" placeholder="Last Name" required="required">
+					</p>
+			
+					<p class="field">
+						<label for="email">Email</label>
+						<input type="text" name="email" id="email" placeholder="example@email.com" required="required">
+					</p>
+			
+					<p class="field">
+						<label for="password">Password</label>
+						<input type="password" name="password" id="password" required="required">
+					</p>
+			
+ 					<p class="gender">
+						<input type="radio" name="gender" id="" value="Male">Male
+						<input type="radio" name="gender" id="" value="Female">Female
+					</p>
+			
+					<p class="location">
+						<label for="location">Location (optional)<label>
+
+						<select name="location">
+							<option>Choose Your Location</option>
+							<option>North Dublin</option>
+							<option>South Dublin</option>
+							<option>City Center</option>
+						</select>
+					</p>
+			
+					<p class="sub">
+						<input type="submit" name="sub" value="Register">
+						<!--<button type="button" onclick="alert('You are Registered!!!')">Register</button>-->
+					</p>
+				</form>
+			</div>
+	
+			<div id="login_wrapper">
+				<h2>Login</h2>
+				<form class="form">
+					<p class="field">
+						<label for="username">Userame</label>
+						<input type="text" name="username" id="username" placeholder="Username" required="required">
+					</p>
+			
+					<p class="field">
+						<label for="password">Password</label>
+						<input type="password" name="password" id="password" placeholder="*********" required="required">
+					</p>
+						
+					<p class="sub">
+						<!--<input type="submit" name="sub" value="Sign in">-->
+						<button type="button" onclick="alert('Welcome')">Login</button>
+					</p>
+				</form>
+	</div>
+
+	
+	
+	<footer class="mainfooter">
+		<p>Copright &copy; 2017 <a href="a" title="brenmull.com">brenmull.com</a></p>
+	</footer>
+	
+</body>
+</html>

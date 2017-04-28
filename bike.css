@@ -1,0 +1,339 @@
+body {
+	background-color:#b3b3b3 ;
+	font-size: 87.5%; /*auto font size 14px*/
+	font-family: Arial;
+	line-height: 1.5;
+	text-align: left;
+}
+
+label {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+}
+a:link, a:visited {
+	color:#CF5C3F;
+}
+a:hover, a:active {
+	background-color:#CF5C3F;
+	color:#FFF;
+}
+
+.body {
+	margin: 0 auto;
+	width: 75%;
+	clear: both; /*no elements will float around my body class*/
+}
+/*Not my own code, (altered)##########################################*/
+/*was given it to fix my problem with my image changing size o every page*/
+/*create a class and put the image in the css and therefore it wont change on any age*/
+.hero {
+ background: url(http://images.naldzgraphics.net/2014/08/6-bike-logo-design.jpg);
+ background-size: cover;
+ width: 100%;
+ height: 200px;
+ background-position: center;
+}
+/*##################################################################*/
+
+.mainheader img {
+	width: 70%;
+	height: auto;
+	margin: 2% 10% 0% 10%;
+}
+/*Not my own code, (altered)###############################*/
+/*was given it after i completed my "survey" and was told that sign-up/register is usually up in right corner*/
+/*this code moved that tab to top right hand corner*/
+.mainheader .utility_nav {
+	float: right;
+	position: absolute;
+	right: 12.5%;
+	height: auto;
+	background: #000;
+}
+
+.mainheader .utility_nav ul {
+	list-style: none;
+	padding: 0;
+}
+/*####################################################*/
+.mainheader nav {
+	background-color: #666;
+	height: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px; /*found moz border and webkit border from a tutorial online*/
+	-webkit-border-radius: 5px; /*help format style to diff browsers*/
+	
+}
+.mainheader nav ul {
+	list-style: none;
+	margin: 0 auto; /*already 2% margin from image dont want anymore*/
+	
+}
+.mainheader nav ul li {
+	float: left;
+	display: inline;
+}
+.mainheader nav a:link, .mainheader nav a:visited{
+	color: #FFF;
+	display: inline-block;
+	padding: 10px 25px;
+	height: 20px; /*comeback to assign height*/
+}
+.mainheader nav a:hover, .mainHeader nav a:active,
+.mainheader nav .active a:link, .mainHeader nav .active a:visited {
+	background-color:#CF5C3F;
+	text-shadow: none;
+}
+.mainheader nav ul li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	/* want all link/nav element to look the same*/
+}
+.maincontent{
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.content{
+	width: 70%;
+	float: left;
+}
+.topcontent{
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+.bottomcontent{
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+.topsidebar{
+	width: 21%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 2% 0% 2% 3%;
+	padding: 2% 3%;
+}
+.topsidebar topsidebarmaincontent{
+	color:black;
+}
+.bottomsidebar{
+	width: 21%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 2% 0% 2% 3%;
+	padding: 2% 3%;
+}
+.postinfo{
+	font-style: italic;
+	color: #999;
+	font-size: 90%;
+}
+.mainfooter{
+	width: 100%;
+	float: left;
+	background-color: #666;
+	margin: 2% 0%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.mainfooter p{
+	width: 90%;
+	margin: 1% auto;
+	color: #FFF;
+}
+body {
+	font-family: arial;
+	margin: 2px;
+	padding: 0;
+}
+
+.content_wrapper{
+	max-width: 900px;
+	margin: auto;
+	height: auto;
+}
+/*Not all my code.....(altered)######################*/
+/*got this to hel put my register and login field side by side*/
+#form_wrapper{
+	width: 45%;
+	margin: 0 auto;
+	font-size: 20px;
+	color: #CF5C3F;
+	float: left;
+	
+}
+
+h2{
+	font-size: 35px;
+	color: #666;
+}
+#login_wrapper{
+	width: 45%;
+	font-size: 20px;
+	color: #CF5C3F;
+	float:right;
+	
+}
+/*################################################*/
+h2{
+	font-size: 35px;
+	color: #666;
+}
+.field input {
+	width: 150px;
+	padding: 5px;
+	color: #666;
+	font-size: 14px;
+	box-shadow: 1px 1px 0.5px #b3b3b3;
+	-moz-box-shadow: 1px 1px 0.5px #b3b3b3;
+	-webkit-box-shadow: 1px 1px 0.5px #b3b3b3; /*Makes shadowing responsive*/
+}
+.gender input{
+	width: 25px;
+}
+.location select{
+	width: 190px;
+	padding: 2px;
+	color: #666;
+	font-size: 14px;
+	box-shadow: 1px 1px 0.5px #b3b3b3;
+	-moz-box-shadow: 1px 1px 0.5px #b3b3b3;
+	-webkit-box-shadow: 1px 1px 0.5px #b3b3b3;
+}
+/*........got rid of my message box in register/login
+.msg textarea {
+	font-size: 18px;
+	color: #666;
+	max-width: 250px;
+	max-height: 150px;
+	box-shadow: 1px 1px 0.5px #b3b3b3;
+	-moz-box-shadow: 1px 1px 0.5px #b3b3b3;
+	-webkit-box-shadow: 1px 1px 0.5px #b3b3b3;
+}
+*/
+.sub button{
+	min-width: 80px;
+	height: 30px;
+	background-color: #CF5C3F;
+	font-weight: bold;
+	box-shadow: 1px 1px 0.5px #b3b3b3;
+	-moz-box-shadow: 1px 1px 0.5px #b3b3b3;
+	-webkit-box-shadow: 1px 1px 0.5px #b3b3b3;
+}
+.sub input{
+	min-width: 80px;
+	height: 30px;
+	background-color: #CF5C3F;
+	font-weight: bold;
+	box-shadow: 1px 1px 0.5px #b3b3b3;
+	-moz-box-shadow: 1px 1px 0.5px #b3b3b3;
+	-webkit-box-shadow: 1px 1px 0.5px #b3b3b3;
+.field input:hover, .location input:hover, .sub input:hover, textarea: hover{
+	box-shadow: 1px 1px 2px #b3b3b3;
+	-moz-box-shadow: 1px 1px 2px #b3b3b3;
+	-webkit-box-shadow: 1px 1px 2px #b3b3b3; /*increasing the blurness so as to add more effect when hovering*/
+}
+
+}
+@media only screen and (max-width: 550px)
+{
+	.body {
+		width: 90%;
+		font-size: 95%;
+	}
+	.mainheader img {
+	width: 100%;
+	margin: 2% 0% 0% 0%;
+	}
+	.mainheader nav {
+	/*height: 160px;*/
+	}
+	.mainheader nav ul {
+	padding-left: 0;
+	}
+	.mainheader nav ul li {
+	width: 100%;
+	text-align: center;
+	background-color: #666;
+	}
+
+	.mainheader nav a:link, .mainHeader nav a:visited{
+	padding: 10px 25px;
+	height: 20px;
+	display: block;
+	}
+	.content{
+	width: 100%;
+	float: left;
+	margin-top: 2%;
+	}
+	.postinfo{
+		display: none;
+	}
+	.topcontent{
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	margin-bottom: 4%;
+	}
+	.bottomcontent{
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	margin-bottom: 4%;
+	}
+	.topsidebar{
+	width: 35%;
+	float: left;
+	margin-left: 2%;
+	height: 165px;
+	padding: 2% 3%;
+	}
+	.bottomsidebar{
+	width: 35%;
+	float: right;
+	margin-right: 2%;
+	padding: 2% 3%;
+}
+
+	
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
